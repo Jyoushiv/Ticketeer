@@ -7,12 +7,12 @@ A simple Discord bot that allows users to create support tickets using buttons.
 - Create tickets with a button click
 - Private channels for support interactions
 - Easy ticket management
-- 24/7 hosting on Replit
 
 ## Commands
 
 - `/ticket` - Creates a button for users to open tickets
 - `/close` - Closes the current ticket channel (can only be used inside a ticket channel)
+- 
 
 ## Setup
 
@@ -31,7 +31,7 @@ A simple Discord bot that allows users to create support tickets using buttons.
    - Key: `DISCORD_TOKEN`
    - Value: Your Discord bot token
 4. Modify the `STAFF_ROLE_ID` in ticket_bot.py to match your staff role ID
-5. Run the bot using the Run button in Replit
+5. Run the bot using terminal or Replit
 
 ## Keeping Your Bot Online 24/7
 
@@ -46,7 +46,7 @@ This bot includes a keep-alive server that responds to HTTP requests to prevent 
 - Modify ticket channel names and messages in the code
 - Add additional commands as needed
 
-## Troubleshooting
+## Troubleshooting (in Replit)
 
 - If the bot doesn't connect, check if your token is correctly set in the Secrets tab
 - Make sure you've invited the bot to your server with the correct permissions
